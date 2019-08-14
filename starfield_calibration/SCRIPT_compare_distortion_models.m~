@@ -1,0 +1,9 @@
+function compare
+
+
+lensCorrection = readtable(set.lensCorrection0);
+elseif    strcmp(type, 'pointing_model') || strcmp(type, 'camera_model')
+    % read final model 
+    lensCorrection = readtable(set.lensCorrection_final);
+end
+A_corr = [lensCorrection.A_corr_1 lensCorrection.A_corr_2 lensCorrection.A_corr_3 lensCorrection.A_corr_4 lensCorrection.A_corr_5 lensCorrection.A_corr_6];
