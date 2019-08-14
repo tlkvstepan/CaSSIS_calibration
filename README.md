@@ -1,38 +1,18 @@
-# CASSISgeometry 
-Repository to store code and data relevent to the TGO CASSIS investigation
-  
-**/isis_scripts** 
+# Running geometric calibration for TGO CASSIS. 
+Repository to store code for geometric calibration of TGO CASSIS (Matlab2017B).
+It contais code for distortion model selection and starfield calibration.
 
-Collection of Python-ISIS scripts that reconstruct color *.cub images from data packages
+If you using this code please cite our [paper](http://fleuret.org/papers/tulyakov-et-al-jasr2018.pdf)
+```
+@article{tulyakov-et-al-2018,
+  title = {Geometric calibration of Colour and Stereo Surface Imaging System of {ESA}'s {T}race {G}as {O}rbiter},
+  author = {Tulyakov, S. and Ivanov, A. and Thomas, N. and Roloff, V. and Pommerol, A. and Cremonese, G. and Weigel, T. and Fleuret, F.},
+  journal = {Advances in Space Research},
+  volume = {61},
+  number = {1},
+  pages = {487-496},
+  year = {2018},
+  url = {http://fleuret.org/papers/tulyakov-et-al-jasr2018.pdf}
+}
+```
 
-**/calibration**
-
-Collection of scripts that perform geometric calibration
-
-**/calibration/libraries**
-
-Contains reusable functions and 3rd party libraries
-   
-**/calibration/distortion_model_selection**
-
-Distortion model selection experiments
-  
-**/calibration/starfield_calibration**
-
-Star-field based calibration experiments
-  
-**/calibration/perapsisorb_calibration**
-
-Experiments with Mars images
-
-**/rf_distortion** 
-
-C++ functions for distortion / undistortion of CaSSIS images
-
-**/kernels**
-
-SPICE Instrument Kernel for CaSSIS with CaSSIS lens distortion model. 
-
-**/docs**
-
-Calibration reports and relevant papers
